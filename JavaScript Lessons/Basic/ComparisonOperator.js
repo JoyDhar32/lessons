@@ -22,3 +22,5 @@ Type coercion means that JavaScript will attempt to convert the operands to the 
 let aa = 5;
 let bb = '5';
 console.log(aa == bb);  // true (after type coercion)
+
+// ⭐Comparison Operators
