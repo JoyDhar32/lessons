@@ -62,3 +62,7 @@ function constTest() {
     }
     console.log(x);  // 1
     }
+constTest();
+
+
+// ⭐ Var, Let and Const
