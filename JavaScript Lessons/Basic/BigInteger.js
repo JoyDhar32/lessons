@@ -19,3 +19,8 @@ console.log(normal == bigInt); // true
 
 let maxInteger= Number.MAX_SAFE_INTEGER;
 console.log(maxInteger); // 9007199254740991
+let random= 10;
+let maxIntegerPlusOne = maxInteger * 100000;
+console.log(maxIntegerPlusOne); // 9007199254740991000000
+console.log(typeof maxIntegerPlusOne); // number
+console.log(typeof random); // number
