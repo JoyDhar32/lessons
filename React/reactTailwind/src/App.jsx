@@ -3,12 +3,19 @@ import "./App.css";
 import Card from "./components/Card";
 
 function App() {
-  const [count, setCount] = useState(0);
-
+ let person ={
+    name:"Joy Dhar",
+    age: 23,
+    designation:"Software Engineer"
+ }
+ let arr = [1,2,3,4,5,6,7,8,9,10];
+  
   return (
     <>
       <h1 className="text-3xl bg-green-700">React + Tailwind Css</h1>
-      <Card />
+     
+      <Card  person= {person} number={arr}/>
+   
     </>
   );
 }
