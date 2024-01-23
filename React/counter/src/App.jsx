@@ -8,9 +8,8 @@ let [counter, setCounter]= useState(10) // [state, setState
     setCounter(counter=>counter+1)}
   return (
     <div className="App">
-      <h1>React App</h1>
+     <h1>React App</h1>
 <button onClick={()=>{setCounter(counter=>counter-1)}}>Subtract(-)</button>
-
 <h2>Counter Value: {counter}</h2>
 <button onClick={addValue}>Add</button> &nbsp;
 
