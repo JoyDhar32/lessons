@@ -1,33 +1,20 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [bg, setBg] = useState('olive')
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+<div className="w-full h-screen duration-200" style={{backgroundColor:bg}}>
+  <div className="w-full h-screen flex justify-center items-center inset-x-0 px-2">
+    <div className="w-full h-full flex justify-center items-center">
+<button className="bg-purple-900 px-5 py-3 rounded text-white mr-5" onClick={()=>setBg('purple')}>Purple </button>
+<button className="bg-gray-500 px-5 py-3 rounded text-white mr-5" onClick={()=>setBg('gray')}>Gray </button>
+<button className="bg-blue-500 px-5 py-3 rounded text-white mr-5" onClick={()=>setBg('blue')}>Blue </button>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
+    </div>
+</div>
+
     </>
   )
 }
