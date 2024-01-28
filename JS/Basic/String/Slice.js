@@ -17,7 +17,7 @@ console.log(str.slice(0, 2)); // Returns "HE"
 // Example 2: Extract only the last character:
 let str2 = "HELLO WORLD";
 console.log(str2.slice(-1)); // Returns "D"
-console.log(str2.slice(1)); // Returns "LD"
+console.log(str2.slice(1)); // Returns "ELLO WORLD"
 
 // Example 3: Extract characters from position 7 and to the end:
 let str3 = "HELLO WORLD";
