@@ -9,4 +9,7 @@ console.log(fruits); // Returns ["Banana", "Orange", "Apple"]
 let last = fruits.pop();
 console.log(last); // Returns "Apple"
 console.log(fruits); // Returns ["Banana", "Orange"]
+
+// example
+let myGirls = ["Cecilie", "Lone", "Tina"];
 // ⭐ Array pop in depth ⭐
