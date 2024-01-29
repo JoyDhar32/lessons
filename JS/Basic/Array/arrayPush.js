@@ -28,4 +28,6 @@ let arrayLike = {
 };
 console.log(arr.concat(arrayLike)); // [1, 2, "something", "else"]
 
+
+
 // ⭐ Array push in depth ⭐
