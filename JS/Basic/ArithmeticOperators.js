@@ -89,7 +89,6 @@ c *= 10;
 console.log(a); // 25
 console.log(b); // 36
 console.log(c); // 46
-
 /* Compound Assignment with Augmented Division (/=):
 Divides a variable by a value.
 */
@@ -112,6 +111,11 @@ var firstName = "Alan";
 var lastName = "Turing";
 console.log(firstName); // Alan
 console.log(lastName); // Turing
+
+/* Escaping Literal Quotes in Strings:
+Quotes are not the only characters that can be escaped inside a string.
+*/
+//⭐ Arithmetic in depth ⭐
 
 
 
