@@ -14,4 +14,6 @@ console.log(fruits); // Returns ["Banana", "Orange"]
 let myGirls = ["Cecilie", "Lone", "Tina"];
 let myBoys = ["Emil", "Tobias", "Linus"];
 let myChildren = myGirls.concat(myBoys); // Concatenate (join) myGirls and myBoys
+
+console.log(myChildren); // Returns ["Cecilie", "Lone", "Tina", "Emil", "Tobias", "Linus"]
 // ⭐ Array pop in depth ⭐
