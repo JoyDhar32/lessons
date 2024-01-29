@@ -57,9 +57,7 @@ const myFunction7 = (...args) => {
     for (let arg of args) sum += arg;
     return sum;
     }
-
     console.log(myFunction7(1, 2, 3)); // 6
-
 // Example: Function with arrow and default parameter
 
 const myFunction8 = (a, b = 3) => a * b;
