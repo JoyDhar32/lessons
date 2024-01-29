@@ -24,3 +24,4 @@ console.log(maxIntegerPlusOne); // 9007199254740991000000
 console.log(typeof maxIntegerPlusOne); // number
 console.log(typeof random); // number
 
+//⭐ BigInteger in depth ⭐
