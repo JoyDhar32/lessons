@@ -10,4 +10,8 @@ let last = fruits.push("Kiwi");
 console.log(last); // Returns 6
 console.log(fruits); // Returns ["Banana", "Orange", "Apple", "Mango", "Kiwi", "Kiwi"]
 
+// example
+let myGirls = ["Cecilie", "Lone"];
+
+
 // ⭐ Array push in depth ⭐
