@@ -20,8 +20,5 @@ let aa = 5;
 let bb = '5';
 console.log(aa == bb);  // true (after type coercion)
 
-// example 2
-
-console.log(1 == 1); // true
 
 // ⭐Comparison Operators⭐
