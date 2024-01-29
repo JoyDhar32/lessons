@@ -1,9 +1,6 @@
 /*The operators === and == are both used for comparison in JavaScript, but they behave differently.
-
 === (Strict Equality Operator):
-
 The === operator, also known as the strict equality operator, compares both the value and the type of the operands.
-
 It returns true if the operands are equal in value and type, and false otherwise.*/
 // example 1
 
