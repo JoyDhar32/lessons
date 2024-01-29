@@ -102,7 +102,6 @@ c /= 11;
 console.log(a); // 4
 console.log(b); // 27
 console.log(c); // 3
-
 /* Declare String Variables:
 Strings are used to store text.
 */
