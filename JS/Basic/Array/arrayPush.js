@@ -15,5 +15,6 @@ let myGirls = ["Cecilie", "Lone"];
 let myBoys = ["Emil", "Tobias", "Linus"];
 let myChildren = myGirls.concat(myBoys); // Concatenate (join) myGirls and myBoys
 
+console.log(myChildren); // Returns ["Cecilie", "Lone", "Emil", "Tobias", "Linus"]
 
 // ⭐ Array push in depth ⭐
