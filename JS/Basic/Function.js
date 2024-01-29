@@ -23,9 +23,7 @@ function myFunction3(a, b) {
     }
     let x = myFunction3(4, 3);
     console.log(x); // 12
-
 // Example: Function with default parameter
-
 function myFunction4(a, b = 3) {
     return a * b;
     }
