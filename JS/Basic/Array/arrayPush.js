@@ -17,4 +17,15 @@ let myChildren = myGirls.concat(myBoys); // Concatenate (join) myGirls and myBoy
 
 console.log(myChildren); // Returns ["Cecilie", "Lone", "Emil", "Tobias", "Linus"]
 
+// example
+
+let arr = [1, 2];
+let arrayLike = {
+  0: "something",
+  1: "else",
+  [Symbol.isConcatSpreadable]: true,
+  length: 2,
+};
+console.log(arr.concat(arrayLike)); // [1, 2, "something", "else"]
+
 // ⭐ Array push in depth ⭐
