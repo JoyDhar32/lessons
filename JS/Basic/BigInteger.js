@@ -23,3 +23,5 @@ let maxIntegerPlusOne = maxInteger * 100000;
 console.log(maxIntegerPlusOne); // 9007199254740991000000
 console.log(typeof maxIntegerPlusOne); // number
 console.log(typeof random); // number
+
+// Example 3
