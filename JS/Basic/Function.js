@@ -21,7 +21,6 @@ myFunction2("Joy"); // Hello John
 function myFunction3(a, b) {
     return a * b;
     }
-
     let x = myFunction3(4, 3);
     console.log(x); // 12
 
