@@ -65,6 +65,8 @@ const myFunction7 = (...args) => {
 const myFunction8 = (a, b = 3) => a * b;
 console.log(myFunction8(4)); // 12
 
+//⭐Function in depth⭐
+
 
 
 
