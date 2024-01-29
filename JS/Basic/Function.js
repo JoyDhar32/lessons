@@ -3,7 +3,6 @@ Function:
 A function is a block of code designed to perform a particular task.
 A function is executed when "something" invokes it (calls it).
 */
-
 // Example:
 function myFunction() {
   console.log("Hello World!");
@@ -15,7 +14,6 @@ myFunction(); // Hello World!
 function myFunction2(name) {
   console.log("Hello " + name);
 }
-
 myFunction2("Joy"); // Hello John
 
 // Example: Function with return value
@@ -58,7 +56,7 @@ const myFunction7 = (...args) => {
     return sum;
     }
     console.log(myFunction7(1, 2, 3)); // 6
-    
+
 // Example: Function with arrow and default parameter
 
 const myFunction8 = (a, b = 3) => a * b;
