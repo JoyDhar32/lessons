@@ -12,6 +12,8 @@ console.log(fruits); // Returns ["Banana", "Orange", "Apple", "Mango", "Kiwi", "
 
 // example
 let myGirls = ["Cecilie", "Lone"];
+let myBoys = ["Emil", "Tobias", "Linus"];
+let myChildren = myGirls.concat(myBoys); // Concatenate (join) myGirls and myBoys
 
 
 // ⭐ Array push in depth ⭐
