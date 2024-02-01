@@ -39,6 +39,20 @@ const UseStateHooks = () => {
   );
 };
 export default UseStateHooks;
+
+/*useState:
+
+The useState hook is a feature in React that allows functional components to manage state. It is part of the Hooks API introduced in React 16.8 to enable state and other React features in functional components, which were previously only possible in class components.
+
+The useState hook is a function provided by React that allows functional components to have state variables. It is used to declare state variables and returns an array with two elements:
+
+Current State Value: The first element of the array is the current state value.
+
+State Updater Function: The second element is a function that can be used to update the state. When this function is called, React will re-render the component with the updated state.
+*/
+
+
+
 /*
 UseStateHooks: 
 - useState is a Hook that allows you to have state variables in functional components.
