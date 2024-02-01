@@ -5,7 +5,7 @@ const UseStateHooks = () => {
   let [name, setName] = useState(""); // [state, setState
   return (
     <>
-      <div>useStateHooks</div>
+      <div className="h3">useStateHooks</div>
       <div className="input-group input-group-sm mb-3">
         <span className="input-group-text">Small</span>
         <input
@@ -21,9 +21,18 @@ const UseStateHooks = () => {
           {name}{" "}
         </span>click {count >= 0 ? count : 0} Times
       </div>
-      <button onClick={() => setCount((prev) => prev + 1)} className="btn btn-sm btn-primary mt-3">Increment</button>
+      <button
+        onClick={() => setCount((prev) => prev + 1)}
+        className="btn btn-sm btn-primary mt-3"
+      >
+        Increment
+      </button>
       &nbsp; &nbsp;
-      <button onClick={() => setCount(() => count - 1)} disabled={count <= 0} className="btn btn-sm btn-warning mt-3">
+      <button
+        onClick={() => setCount(() => count - 1)}
+        disabled={count <= 0}
+        className="btn btn-sm btn-warning mt-3"
+      >
         Decrement
       </button>
     </>
