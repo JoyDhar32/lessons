@@ -29,4 +29,13 @@ export default UseEffectHook
 variation of useEffect Hook
 - useEffect Hook runs after every render of the component.
 */
-// definition of useEffect Hook
+// definition of useEffect Hook ⭐️ useState Hook ⭐️
+/*
+The useEffect hook in React is another fundamental hook that enables you to perform side effects in functional components. Side effects in React components often include data fetching, subscriptions, manual DOM manipulations, and other operations that might impact the component's behavior. The useEffect hook is similar to the componentDidMount, componentDidUpdate, and componentWillUnmount lifecycle methods in class components, but it is combined into a single API.
+
+The useEffect hook is a function provided by React that allows functional components to perform side effects. It is used to manage the lifecycle of components, enabling you to execute code in response to component mounting, updating, or unmounting.
+
+The useEffect hook takes two arguments:
+Effect: A function that contains the code to be executed as a side effect.
+Dependencies: An optional array of dependencies that the effect depends on. If the dependencies change, the effect will be re-run. If no dependencies are provided, the effect will run after every render of the component.
+*/
