@@ -1,8 +1,8 @@
 /*
 Var, Let, and Const
 In JavaScript, let, var, and const are used for variable declarations, but they have some key differences in terms of scope, hoisting, and reassignment. Here's a summary of their differences:
-var:
 
+var:
 Scope: Variables declared with var are function-scoped. They are visible throughout the entire function in which they are declared.
 
 Hoisting: Variable declarations using var are hoisted to the top of their function or global scope. However, only the declaration is hoisted, not the initialization.
@@ -65,4 +65,4 @@ function constTest() {
 constTest();
 
 
-// ⭐ Var, Let and Const
+// ⭐ Var, Let and Const ⭐
