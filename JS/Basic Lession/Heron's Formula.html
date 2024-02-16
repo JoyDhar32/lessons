@@ -40,15 +40,16 @@
 <script>
     let calculate = ()=>{
         let a = Number(document.getElementById('a').value);
-
         let b = Number(document.getElementById('b').value);
         let c = Number(document.getElementById('c').value);
         let s = (a + b + c) / 2;
-        let area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
-        document.getElementById('result').innerHTML = `The area of the triangle is ${a} `;
+        let area = Math.sqrt(s * (s - a) * (s - b) * (s - c)).toFixed(2);
+        document.getElementById('result').innerHTML = `The area of the triangle is ${area} `;
         console.log(typeof(s), s );
+
+
     }
-   
+   // ⭐ Heron's Formula ⭐
 </script>
 
 </html>
