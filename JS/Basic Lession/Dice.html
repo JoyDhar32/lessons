@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +20,8 @@
                     <div class="card-body">
                         <div class="form-group">
                             <label for="dice">Number of Dice</label>
-                            <input type="number" id="dice" class="form-control" placeholder="Enter Number of Dice" min="1" max="6">
+                            <input type="number" id="dice" class="form-control" placeholder="Enter Number of Dice"
+                                min="1" max="6">
                             <button class="btn btn-primary mt-3" onclick="generateDice()">Generate Dice</button>
                         </div>
                         <div id="result"></div>
@@ -39,10 +41,11 @@
             totalDice.push(random);
             diceImage.push(`<img src="images/dice/${random}.png" width="150"  alt= "Dice ${random}">`);
         }
-        result.textContent=`Dice : ${totalDice.join(', ')}`;
+        result.textContent = `Dice : ${totalDice.join(', ')}`;
         images.innerHTML = diceImage.join('');
     }
 
     //⭐ Dice Project Completed ⭐
 </script>
+
 </html>
