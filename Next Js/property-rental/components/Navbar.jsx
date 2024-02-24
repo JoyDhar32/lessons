@@ -1,6 +1,10 @@
 import React from 'react'
-
+import logo from '@/assets/images/logo-white.png'
+import Image from 'next/image'
+import profileDefault from '@/assets/images/profile.png'
+import Link from 'next/link'
 const Navbar = () => {
+   
   return (
    <>
    <nav className='bg-blue-700 border-b border-blue-500'>
@@ -36,8 +40,8 @@ const Navbar = () => {
 
           <div className='flex flex-1 items-center justify-center md:items-stretch md:justify-start'>
             {/* <!-- Logo --> */}
-            <a className='flex flex-shrink-0 items-center' href='/index.html'>
-              <Image className='h-10 w-auto' src={logo} alt='PropertyPulse' />
+            <Link className='flex flex-shrink-0 items-center' href='/'>
+              <Image className='h-10 w-auto' src={logo} alt='PropertyPulse' priority={true} />
 
               <span className='hidden md:block text-white text-2xl font-bold ml-2'>
                 PropertyPulse
@@ -121,7 +125,7 @@ const Navbar = () => {
                   <span className='sr-only'>Open user menu</span>
                   <Image
                     className='h-8 w-8 rounded-full'
-                    src={profileDefault}
+                    src={profileDefault} width = {32} height = {32} priority={true}
                     alt=''
                   />
                 </button>
