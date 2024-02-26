@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const HomePage = () => {
   return (
@@ -8,6 +9,8 @@ const HomePage = () => {
         <p>
             Welcome to the home page! This is a simple example of a React component.
         </p>
+        <Link to="/profiles" className="btn btn-primary btn-sm">Go to Profiles</Link>
+
     </div>
     </>
 
