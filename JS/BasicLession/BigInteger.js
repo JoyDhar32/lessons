@@ -5,8 +5,8 @@ n JavaScript, the BigInt is a primitive data type introduced in ECMAScript 2020 
 
 // Example 1
 const a = 900719925124740998n;
-const normal=900719925124740;
-const bigInt=900719925124740n;
+const normal = 900719925124740;
+const bigInt = 900719925124740n;
 const b = 900719925124740998n;
 console.log(a === b); // true
 console.log(typeof a); // bigint
@@ -16,9 +16,9 @@ console.log(normal == bigInt); // true
 
 // Example 2
 
-let maxInteger= Number.MAX_SAFE_INTEGER;
+let maxInteger = Number.MAX_SAFE_INTEGER;
 console.log(maxInteger); // 9007199254740991
-let random= 10;
+let random = 10;
 let maxIntegerPlusOne = maxInteger * 100000;
 console.log(maxIntegerPlusOne); // 9007199254740991000000
 console.log(typeof maxIntegerPlusOne); // number
