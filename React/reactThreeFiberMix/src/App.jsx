@@ -1,9 +1,12 @@
 import React from 'react'
-
+import ThreeTest from './assets/components/ThreeTest';
 const App = () => {
+  
+
   return (
     <>
-      <h1 className="font-bold text-purple-900 text-2xl text-center pt-4">React Three Fiber Mix</h1>
+    <h1 className="text-center pt-4 text-2xl font-bold text-hotpink">Welcome to 3D World</h1>
+    <ThreeTest />
     </>
   )
 }
