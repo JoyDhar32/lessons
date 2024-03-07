@@ -15,7 +15,7 @@ const Box = () => {
   return (
     <mesh ref={boxRef}>
       <boxGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial color="orange" />
+      <meshStandardMaterial color="blue" />
     </mesh>
   );
 };
@@ -24,7 +24,7 @@ const ThreeTest = () => {
   return (
     <div className="h-screen">
       <Canvas>
-        <ambientLight intensity={0.5} />
+        <ambientLight intensity={1} />
         <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
         <pointLight position={[-10, -10, -10]} />
         <Box />
