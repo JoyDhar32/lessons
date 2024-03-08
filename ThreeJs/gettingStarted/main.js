@@ -3,15 +3,15 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
 
 
-const scene = new THREE.Scene();
+const scene = new THREE.Scene(); // create a scene
 
 
-const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000); // create a camera
 camera.position.set(-10, 30, 30); // x, y, z
 
 
-const axesHelper = new THREE.AxesHelper(5);
-scene.add(axesHelper);
+const axesHelper = new THREE.AxesHelper(5); // create an axes helper
+scene.add(axesHelper); // add the axes helper to the scene
 
 
 
@@ -25,13 +25,19 @@ scene.add(box); // add the box to the scene
 
 // create a plane
 const planeGeometry = new THREE.PlaneGeometry(30, 30); // width, height
-const planeMaterial = new THREE.MeshBasicMaterial({ color: 0x0000ff }); // blue color for the plane material
+const planeMaterial = new THREE.MeshBasicMaterial({ color: 0x0000ff, side: THREE.DoubleSide }); // blue color for the plane material
 const plane = new THREE.Mesh(planeGeometry, planeMaterial); // create the plane with geometry and material
 scene.add(plane); // add the plane to the scene
 plane.rotation.x = -0.5 * Math.PI // rotate the plane 90 degrees around the x-axis
 // adding a helper
 const gridHelper = new THREE.GridHelper(30);
 scene.add(gridHelper);
+
+//create a sphere
+const sphereGeometry = new THREE.SphereGeometry(4); // radius
+const sphereMaterial = new THREE.MeshBasicMaterial({ color: 'purple', wireframe: true });
+const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
+scene.add(sphere);
 
 // Renderer
 
