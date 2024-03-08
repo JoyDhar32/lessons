@@ -34,8 +34,8 @@ const gridHelper = new THREE.GridHelper(30);
 scene.add(gridHelper);
 
 //create a sphere
-const sphereGeometry = new THREE.SphereGeometry(4); // radius
-const sphereMaterial = new THREE.MeshBasicMaterial({ color: 'purple', wireframe: true });
+const sphereGeometry = new THREE.SphereGeometry(4, 50,50); // radius 4, widthSegments 10, heightSegments 10
+const sphereMaterial = new THREE.MeshStandardMaterial({ color: 'purple', wireframe: false });
 const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
 scene.add(sphere);
 
