@@ -1,10 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
-
-
 const scene = new THREE.Scene(); // create a scene
-
 
 const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000); // create a camera
 camera.position.set(-10, 30, 30); // x, y, z
@@ -13,8 +10,9 @@ camera.position.set(-10, 30, 30); // x, y, z
 const axesHelper = new THREE.AxesHelper(5); // create an axes helper
 scene.add(axesHelper); // add the axes helper to the scene
 
-
-
+// adding grid a helper
+const gridHelper = new THREE.GridHelper(30); // size, divisions
+scene.add(gridHelper); // add the grid helper to the scene
 
 
 // adding box
@@ -29,16 +27,13 @@ const planeMaterial = new THREE.MeshBasicMaterial({ color: 0x0000ff, side: THREE
 const plane = new THREE.Mesh(planeGeometry, planeMaterial); // create the plane with geometry and material
 scene.add(plane); // add the plane to the scene
 plane.rotation.x = -0.5 * Math.PI // rotate the plane 90 degrees around the x-axis
-// adding a helper
-const gridHelper = new THREE.GridHelper(30);
-scene.add(gridHelper);
 
 //create a sphere
-const sphereGeometry = new THREE.SphereGeometry(4, 50,50); // radius 4, widthSegments 10, heightSegments 10
-const sphereMaterial = new THREE.MeshBasicMaterial({ color: 'purple', wireframe: false });
-const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
-sphere.position.set(-10, 10, 0);
-scene.add(sphere);
+const sphereGeometry = new THREE.SphereGeometry(4, 50, 50); // radius 4, widthSegments 10, heightSegments 10
+const sphereMaterial = new THREE.MeshBasicMaterial({ color: 'purple', wireframe: false }); // purple color for the sphere material
+const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial); // create the sphere with geometry and material
+sphere.position.set(-10, 10, 0);    // x, y, z
+scene.add(sphere); // add the sphere to the scene
 
 // Renderer
 
