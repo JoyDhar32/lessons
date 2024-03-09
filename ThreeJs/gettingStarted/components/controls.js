@@ -50,7 +50,9 @@ const gui = new dat.GUI();
 const options={
     sphereColor:'#ffea00', // yellow
     planeColor:'#ff0000', // red
-    boxColor:'#00ff00'
+    boxColor:'#00ff00',
+    wireframe:false,
+    speed:0.01
 };
 // add color to the spare
 gui.addColor(options,'sphereColor').onChange(function(e){
@@ -66,13 +68,30 @@ gui.addColor(options,'planeColor').onChange(function(e){
 gui.addColor(options,'boxColor').onChange(function(e){
     box.material.color.set(e);
 });
+
+// wireframe
+gui.add(options,'wireframe').onChange((e)=>{
+    sphere.material.wireframe = e;
+    plane.material.wireframe = e;
+    box.material.wireframe = e;
+});
+
+// step
+gui.add(options,'speed',0,0.1);
+
+
 // Animation
 
+let step =0;
 const animate = (time) => {
     box.rotation.x = time / 1000;
     box.rotation.y = time / 1000;
+    step +=options.speed; // increment the step
+    sphere.position.y=10*Math.abs(Math.sin(step));  // y = 10 * |sin(step)|
     renderer.render(scene, camera);
+
 }
+
 renderer.setAnimationLoop(animate);
 
 
