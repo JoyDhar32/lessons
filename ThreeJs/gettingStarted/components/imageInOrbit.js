@@ -15,6 +15,9 @@ scene.add(axesHelper); // add the axes helper to the scene
 const gridHelper = new THREE.GridHelper(30); // size, divisions
 scene.add(gridHelper); // add the grid helper to the scene
 
+// Light
+const ambientLight = new THREE.AmbientLight(0xffffff, 1); // color, intensity
+scene.add(ambientLight); // add the ambient light to the scene
 
 // adding box
 const boxGeometry = new THREE.BoxGeometry(3,3,3); // default 1, 1, 1
