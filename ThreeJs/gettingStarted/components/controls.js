@@ -17,7 +17,7 @@ scene.add(gridHelper); // add the grid helper to the scene
 
 
 // adding box
-const boxGeometry = new THREE.BoxGeometry(); // default 1, 1, 1
+const boxGeometry = new THREE.BoxGeometry(3,3,3); // default 1, 1, 1
 const boxMaterial = new THREE.MeshBasicMaterial({ color: 0x00ff00 }); // green color for the box material
 const box = new THREE.Mesh(boxGeometry, boxMaterial); // create the box with geometry and material
 scene.add(box); // add the box to the scene
