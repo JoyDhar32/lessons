@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import * as dat from 'dat.gui';
 
 const scene = new THREE.Scene(); // create a scene
 
@@ -23,7 +24,7 @@ scene.add(box); // add the box to the scene
 
 // create a plane
 const planeGeometry = new THREE.PlaneGeometry(30, 30); // width, height
-const planeMaterial = new THREE.MeshBasicMaterial({ color: 0x0000ff, side: THREE.DoubleSide }); // blue color for the plane material
+const planeMaterial = new THREE.MeshBasicMaterial({ color: 'orange', side: THREE.DoubleSide }); // blue color for the plane material
 const plane = new THREE.Mesh(planeGeometry, planeMaterial); // create the plane with geometry and material
 scene.add(plane); // add the plane to the scene
 plane.rotation.x = -0.5 * Math.PI // rotate the plane 90 degrees around the x-axis
@@ -43,7 +44,28 @@ document.body.appendChild(renderer.domElement);
 const orbit = new OrbitControls(camera, renderer.domElement);
 orbit.update();
 
+// GUI
+const gui = new dat.GUI();
 
+const options={
+    sphereColor:'#ffea00', // yellow
+    planeColor:'#ff0000', // red
+    boxColor:'#00ff00'
+};
+// add color to the spare
+gui.addColor(options,'sphereColor').onChange(function(e){
+    sphere.material.color.set(e);
+});
+
+// add color to the plane
+gui.addColor(options,'planeColor').onChange(function(e){
+    plane.material.color.set(e);
+});
+
+// box color
+gui.addColor(options,'boxColor').onChange(function(e){
+    box.material.color.set(e);
+});
 // Animation
 
 const animate = (time) => {
