@@ -1,0 +1,658 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4100,
+      "max": [
+        0.9640487432479858,
+        0.3921443819999695,
+        0.3906005322933197
+      ],
+      "min": [
+        -0.9640487432479858,
+        -0.39214423298835754,
+        -0.3906004726886749
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 49200,
+      "componentType": 5126,
+      "count": 4100,
+      "max": [
+        0.9999483823776245,
+        0.9997800588607788,
+        0.9994028806686401
+      ],
+      "min": [
+        -0.9999483823776245,
+        -0.999779462814331,
+        -0.9994028806686401
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4100,
+      "max": [
+        0.9543877840042114,
+        0.952393651008606
+      ],
+      "min": [
+        0.0425228476524353,
+        0.04415084421634674
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 32800,
+      "componentType": 5126,
+      "count": 4100,
+      "max": [
+        0.9543877840042114,
+        0.952393651008606
+      ],
+      "min": [
+        0.0425228476524353,
+        0.04415084421634674
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 23808,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 98400,
+      "componentType": 5126,
+      "count": 1738,
+      "max": [
+        0.8667150139808655,
+        0.7586177587509155,
+        0.5277407169342041
+      ],
+      "min": [
+        -0.8719231486320496,
+        -0.7180850505828857,
+        -0.5284286737442017
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 119256,
+      "componentType": 5126,
+      "count": 1738,
+      "max": [
+        0.9943049550056458,
+        0.10073047131299973,
+        0.9996165633201599
+      ],
+      "min": [
+        -0.9895651936531067,
+        -0.9992712736129761,
+        -0.9972384572029114
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1738,
+      "max": [
+        0.9999638199806213,
+        0.9838069081306458,
+        0.9966882467269897,
+        1.0
+      ],
+      "min": [
+        -0.9999864101409912,
+        -0.5384281277656555,
+        -0.9952887892723083,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 65600,
+      "componentType": 5126,
+      "count": 1738,
+      "max": [
+        0.987466037273407,
+        0.9751848578453064
+      ],
+      "min": [
+        0.03682989627122879,
+        0.030261205509305
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 79504,
+      "componentType": 5126,
+      "count": 1738,
+      "max": [
+        0.987466037273407,
+        0.9751848578453064
+      ],
+      "min": [
+        0.03682989627122879,
+        0.030261205509305
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 93408,
+      "componentType": 5126,
+      "count": 1738,
+      "max": [
+        0.987466037273407,
+        0.9751848578453064
+      ],
+      "min": [
+        0.03682989627122879,
+        0.030261205509305
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 95232,
+      "componentType": 5125,
+      "count": 9264,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 140112,
+      "componentType": 5126,
+      "count": 5344,
+      "max": [
+        2.3814444541931152,
+        5.350431442260742,
+        3.993849277496338
+      ],
+      "min": [
+        -2.3814444541931152,
+        -1.6107760667800903,
+        -1.1058346033096313
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 204240,
+      "componentType": 5126,
+      "count": 5344,
+      "max": [
+        1.0,
+        1.0,
+        0.9999990463256836
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 27808,
+      "componentType": 5126,
+      "count": 5344,
+      "max": [
+        0.9998133182525635,
+        0.9999992847442627,
+        0.9999991059303284,
+        1.0
+      ],
+      "min": [
+        -0.9998133182525635,
+        -0.9999998807907104,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 107312,
+      "componentType": 5126,
+      "count": 5344,
+      "max": [
+        0.995227575302124,
+        0.9830340147018433
+      ],
+      "min": [
+        0.006188511848449707,
+        0.009116381406784058
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 150064,
+      "componentType": 5126,
+      "count": 5344,
+      "max": [
+        0.995227575302124,
+        0.9830340147018433
+      ],
+      "min": [
+        0.006188511848449707,
+        0.009116381406784058
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 192816,
+      "componentType": 5126,
+      "count": 5344,
+      "max": [
+        0.995227575302124,
+        0.9830340147018433
+      ],
+      "min": [
+        0.006188511848449707,
+        0.009116381406784058
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 132288,
+      "componentType": 5125,
+      "count": 30576,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Yogesh_Dhiwar (https://sketchfab.com/Yogesh_Dhiwar)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/rubber-duck-d0d11eceb6c147668fe3cc73fe463862",
+      "title": "rubber duck"
+    },
+    "generator": "Sketchfab-14.5.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 254592,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 235568,
+      "byteOffset": 254592,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 268368,
+      "byteOffset": 490160,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 113312,
+      "byteOffset": 758528,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 871840,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/duck_mat_eyes_baseColor.png"
+    },
+    {
+      "uri": "textures/duck_mat_eyes_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/duck_mat_muth_baseColor.png"
+    },
+    {
+      "uri": "textures/duck_mat_muth_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/duck_mat_muth_normal.png"
+    },
+    {
+      "uri": "textures/duck_mat_mainbody_baseColor.png"
+    },
+    {
+      "uri": "textures/duck_mat_mainbody_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/duck_mat_mainbody_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "duck_mat_eyes",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.5
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "duck_mat_muth",
+      "normalTexture": {
+        "index": 4
+      },
+      "occlusionTexture": {
+        "index": 3
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 3
+        },
+        "roughnessFactor": 0.7
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "duck_mat_mainbody",
+      "normalTexture": {
+        "index": 7
+      },
+      "occlusionTexture": {
+        "index": 6
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 5
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 6
+        },
+        "roughnessFactor": 0.7
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "duck_eyes_duck_mat_eyes_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "duck_mouth_duck_mat_muth_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9,
+            "TEXCOORD_2": 10
+          },
+          "indices": 11,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "duck_body_duck_mat_mainbody_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TANGENT": 14,
+            "TEXCOORD_0": 15,
+            "TEXCOORD_1": 16,
+            "TEXCOORD_2": 17
+          },
+          "indices": 18,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "duck_quad.fbx"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        0.0,
+        297.4532165527344,
+        58.1960334777832,
+        1.0
+      ],
+      "name": "duck_eyes"
+    },
+    {
+      "mesh": 0,
+      "name": "duck_eyes_duck_mat_eyes_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        100.0,
+        -2.3597525619143272e-15,
+        -1.2574679730842307e-16,
+        0.0,
+        1.2574511588347258e-16,
+        10.627377256445657,
+        -99.43369840515913,
+        0.0,
+        2.3597528320597726e-15,
+        99.43369840515913,
+        10.627377256445657,
+        0.0,
+        -0.17946352064609528,
+        231.90811157226563,
+        153.9063720703125,
+        1.0
+      ],
+      "name": "duck_mouth"
+    },
+    {
+      "mesh": 1,
+      "name": "duck_mouth_duck_mat_muth_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        0.0,
+        0.0,
+        -1.1920928955078125e-05,
+        1.0
+      ],
+      "name": "duck_body"
+    },
+    {
+      "mesh": 2,
+      "name": "duck_body_duck_mat_mainbody_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    },
+    {
+      "sampler": 0,
+      "source": 7
+    }
+  ]
+}
