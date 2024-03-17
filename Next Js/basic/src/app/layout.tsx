@@ -10,7 +10,38 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <header>
+          <h1 
+          style={{
+            color: 'blue',
+            fontSize: '50px',
+            textAlign: 'center',
+          
+          }}
+          >Welcome to Next.js!</h1>
+
+        </header>
+        {children}
+        
+        <footer
+        style={{
+          backgroundColor: 'black',
+          color: 'white',
+          textAlign: 'center',
+          padding: '10px',
+          position: 'fixed',
+          left: '0',
+          bottom: '0',
+          width: '100%',
+        
+        }}
+        >
+          <p>© 2024 Joy</p>
+
+        </footer>
+        </body>
+        
     </html>
   )
 }
