@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Private() {
+export const page = () => {
   return (
-    <div>Private Page</div>
+    <div>page</div>
   )
 }
