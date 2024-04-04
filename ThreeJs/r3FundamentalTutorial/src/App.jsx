@@ -15,26 +15,14 @@ const App = () => {
       <Canvas>
       <ambientLight intensity={0.5} />
         <directionalLight position={[0,0 , 1]} intensity={0.5}/> 
-        <group position={[0,-1,0]}>
+        <group position={[0,-1,0]}> 
+
         <Cube position={[-1,0,0]} side={[1,1,1]} color={"red"} />
         <Cube position={[1,0,0]} side={[1,1,1]} color={"hotpink"} />
         <Cube position={[-1,2,0]} side={[1,1,1]} color={"blue"} />
         <Cube position={[1,2,0]} side={[1,1,1]} color={"orange"} />
-</group>f
+</group>
 
-        {/* <mesh position={[1, 0, 0]}>
-          <boxGeometry />
-          <meshStandardMaterial color="orange" />
-        </mesh>
-       
-        <mesh position={[-1, 2, 0]}>
-          <boxGeometry />
-          <meshStandardMaterial color="green" />
-        </mesh>
-        <mesh position={[1, 2, 0]}>
-          <boxGeometry />
-          <meshStandardMaterial color="purple" />
-        </mesh> */}
       </Canvas>
     </>
   );
