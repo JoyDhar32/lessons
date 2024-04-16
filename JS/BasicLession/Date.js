@@ -23,4 +23,4 @@ const secondsUTC = date.getUTCSeconds();
 const monthString= date.toLocaleString('default', { month: 'long' }); // 
 const stringMonth= date.getMonth().toString();
 
-// 🌟Date Function🌟
+// ⭐ Date Function ⭐
