@@ -17,13 +17,20 @@ class testStatic {
     add(a, b) {
         return a + b;
     }
+    sub() {return this.a - this.b};
+    mul() {return this.a * this.b};
+    div() {return this.a / this.b};
+
 
 }
 
 testStatic.staticMethod(); // This is a static method
 console.log(testStatic.name); // static variable
 console.log(testStatic.sum(2, 2));
-let obj = new testStatic();
+let obj = new testStatic(5,3); // object created with constructor values
 console.log(obj.add(2, 22)); 
+console.log(obj.sub());
+console.log(obj.mul());
+console.log(obj.div());
 
 // ⭐Static, Constructor & Local Properties⭐
