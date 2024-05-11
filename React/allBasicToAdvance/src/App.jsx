@@ -1,14 +1,9 @@
-import React from 'react'
-import Card from './components/Card'
+import React from "react";
 
 const App = () => {
-  return (
-    <>
- 
+  return <>
 
-    
-    </>
-  )
-}
+  </>;
+};
 
-export default App
+export default App;

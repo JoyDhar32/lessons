@@ -1,14 +1,24 @@
 /*
+import Card from "./components/Card";
+let Obj = {
+  name: "Joy",
+  status: "Student",
+  address: {
+    city: "Dhaka",
+    country: "Bangladesh",
+  },
+};
+let arr = [1,2,3,4,5];
 
  <Card name="Joy" status="Student" />
  <Card />
-
+   <Card name={Obj.name} status={Obj.status}  numbers={arr} />
 */
 
 
 import React from 'react'
 
-const Card = ({name="JD",status="NA"}) => {
+const Card = ({name="JD",status="NA", numbers}) => {
   return (
     <>
  
@@ -27,6 +37,13 @@ const Card = ({name="JD",status="NA"}) => {
       <div className="text-yellow-900">
        {status}
       </div>
+        <div className="text-yellow-900">
+          <ol>
+            {numbers.map((num, index) => {
+              return <li key={index}>{num}</li>
+            })}
+          </ol>
+        </div>
     </figcaption>
   </div>
 </figure>
