@@ -1,7 +1,8 @@
+import React from 'react'
 
 const Page = () => {
   return (
-    <div>Hello World</div>
+    <div>Profile Page</div>
   )
 }
 
