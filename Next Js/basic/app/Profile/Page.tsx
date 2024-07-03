@@ -1,9 +1,15 @@
-import React from 'react'
+import {Metadata} from "next"
 
-const Page = () => {
+export const metadata: Metadata= {
+  title: "Proflie Page",
+  description: "This is the profile page"
+}
+
+
+const page = () => {
   return (
     <div>Profile Page</div>
   )
 }
 
-export default Page
+export default page

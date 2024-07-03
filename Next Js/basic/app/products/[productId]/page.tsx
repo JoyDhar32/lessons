@@ -1,5 +1,6 @@
 import React from 'react'
 import { notFound } from "next/navigation"
+
 const page = ({ params }: { params: { productId: string } } )  => {
     {
         if (parseInt(params.productId) > 5) {
