@@ -1,6 +1,7 @@
-const fetchData = async () => {
+const API_URL = 'https://jsonplaceholder.typicode.com/posts';
+const fetchData = async (API_URL) => {
     try{
-    const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+    const response = await fetch(API_URL);
     const data = await response.json();
     data.forEach(post => {
         console.log(`Id: ${post.id} Title: ${post.title}`)
@@ -12,6 +13,6 @@ finally{
     console.log('API call completed');
 }
 }
-fetchData();
+fetchData(API_URL);
 
 // ⭐ Fetch API async await ⭐
