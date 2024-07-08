@@ -11,9 +11,11 @@ console.log(str2);
 
 console.log(`-----------------`)
 
-console.log(`The type of arr is ${typeof arr}`);
-console.log(`The type of Str is ${typeof str}`);
-console.log(`The type of arr2 is ${typeof arr2}`);
-console.log(`The type of Str2 is ${typeof str2}`);
+console.log(`The type of arr is ${typeof arr}`);  // object
+console.log(`The type of Str is ${typeof str}`); // string
+console.log(`The type of arr2 is ${typeof arr2}`); // object
+console.log(`The type of Str2 is ${typeof str2}`); // string
+console.log(`The type of ${arr[0]} is ${typeof arr[0]}`); // number
+console.log(`The type of ${arr2[0]} is ${typeof arr2[0]}`); // string
 
 // ⭐ To String Function ⭐
