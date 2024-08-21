@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP View</title>
+    <style>
+      .container {
+        height: 300px;
+        width: 350px;
+        margin: 10% auto;
+        background-color: rgb(1, 1, 84);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 50px;
+        border-radius: 30px;
+        border: 2px solid gray;
+      }
+      .inputClass input {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        margin: 10px;
+        text-align: center;
+        border-radius: 10px;
+        border: 2px solid gray;
+        background: transparent;
+        color: rgb(255, 255, 255);
+      }
+      button {
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+        margin: 10px;
+        text-align: center;
+        border-radius: 10px;
+        border: 2px solid gray;
+        background: darkblue;
+        color: aliceblue;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2 style="text-align: center">OTP Generator</h2>
+      <div class="inputClass">
+        <input type="text" maxlength="1" required />
+        <input type="text" maxlength="1" required />
+        <input type="text" maxlength="1" required />
+        <input type="text" maxlength="1" required />
+      </div>
+      <button id="verifyBtn">Verify</button>
+      <p
+        id="output"
+        style="
+          margin-top: 10px;
+          color: white;
+          font-size: 25px;
+          font-weight: bold;
+        "
+      ></p>
+    </div>
+    <script>
+      let inputs = [...document.querySelectorAll("input")];
+      console.log(inputs);
+      inputs.forEach((item) => {
+        item.addEventListener("keyup", () => {
+          if (inputs.indexOf(item) + 1 != inputs.length) {
+            inputs[inputs.indexOf(item) + 1].focus();
+          }
+        });
+      });
+
+      // Add event listener to the Verify button
+      document.getElementById("verifyBtn").addEventListener("click", () => {
+        let numbers = "";
+        let allValid = true;
+
+        inputs.forEach((input) => {
+          if (/^\d$/.test(input.value)) {
+            numbers += input.value;
+          } else {
+            allValid = false;
+          }
+        });
+
+        let output = "";
+        if (allValid && numbers.length === 4) {
+          output = numbers;
+        } else if (!allValid) {
+          output = "Please enter only numbers.";
+        } else {
+          output = "Enter all 4 digits.";
+        }
+
+        document.getElementById("output").innerText = output;
+      });
+    </script>
+  </body>
+</html>
