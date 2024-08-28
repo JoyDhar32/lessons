@@ -1,0 +1,7 @@
+H:\Lessons\C#\masterRepo\bin\Debug\masterRepo.exe.config
+H:\Lessons\C#\masterRepo\bin\Debug\masterRepo.exe
+H:\Lessons\C#\masterRepo\bin\Debug\masterRepo.pdb
+H:\Lessons\C#\masterRepo\obj\Debug\masterRepo.csproj.AssemblyReference.cache
+H:\Lessons\C#\masterRepo\obj\Debug\masterRepo.csproj.CoreCompileInputs.cache
+H:\Lessons\C#\masterRepo\obj\Debug\masterRepo.exe
+H:\Lessons\C#\masterRepo\obj\Debug\masterRepo.pdb
