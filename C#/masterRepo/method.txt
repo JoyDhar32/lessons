@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace masterRepo
+{
+    internal class Program
+    {
+        static void MyMethod()
+        {
+            Console.WriteLine("Method Called");
+        }
+
+        static void MyMethod(string fname, int hours)
+        {
+            Console.WriteLine($"Welcome {fname} you will sleep for {hours} today");
+        }
+
+        // If no parameter provided it will consider as method overloading
+        static void MyMethod(string fname="Hi")
+        {
+            Console.WriteLine($"This is default {fname}");
+        }
+
+        static int Sum(int a, int b)
+        {
+            return a + b;
+        }
+        static void Main(string[] args)
+        {
+           /*
+            MyMethod();
+            MyMethod("Joy", 6);
+            MyMethod();
+            MyMethod("Bijoy", 8);
+            MyMethod("ABC");
+            Console.WriteLine(Sum(10, 20));
+            */
+            Console.WriteLine(Sum(100, 120));
+            Console.ReadKey();
+
+        }
+    }
+}

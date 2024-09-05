@@ -4,18 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace masterRepo
+namespace Practice
 {
     internal class Program
     {
-     
-       
         static void Main(string[] args)
         {
+            Car obj = new Car();
+            string color=obj.color;
+            Console.WriteLine($"Car color is = {color}");
 
-            // Console.WriteLine(Sum(100, 120));
-            Console.WriteLine("HEllo");
-            Console.ReadKey();
+            Console.ReadLine();
 
         }
     }
