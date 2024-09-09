@@ -1,0 +1,571 @@
+   20  git checkout -b main
+   21  git push -u origin main
+   22  git init
+   23  git branch
+   24  git branch -M main
+   25  git branch
+   26  git status
+   27  git status
+   28  git add .
+   29  git status
+   30  git remote add origin https://github.com/JoyDhar32/Project-Horizons.git
+   31  git push -u origin main
+   32  git checkout main
+   33  git branch
+   34  git merge feature-branch
+   35  git push -u origin main
+   36  git merge feature-branch
+   37  git status
+   38  git add .
+   39  git git remote add origin https://github.com/JoyDhar32/Project-Horizons.git
+   40  git status
+   41  git init
+   42  git status
+   43  git add .
+   44  git status
+   45  git branch -M main
+   46  git remote add origin https://github.com/JoyDhar32/Project-Horizons.git
+   47  git push -u origin main
+   48  git status
+   49  gi status
+   50  git status
+   51  git add .
+   52  git commit -m "initial commit"
+   53  git push
+   54  git init
+   55  git add README.md
+   56  git commit -m "first commit"
+   57  git status
+   58  git add .
+   59  git status
+   60  git add .
+   61  git commit -m "Initial Commit"
+   62  git branch -M main
+   63  git remote add origin https://github.com/JoyDhar32/Project-Horizons.git
+   64  git push -u origin main
+   65  git clone https://github.com/WaelYasmina/solarsystem.git
+   66  npx vite
+   67  code .
+   68  npm i --y
+   69  npm init --y
+   70  npm install --save three
+   71  npm install --save-dev vite
+   72  code .
+   73  git init
+   74  git status
+   75  git add .
+   76  git status
+   77  git add .
+   78  git branch -M main
+   79  git commit -m "initial commit"
+   80  git remote add origin https://github.com/JoyDhar32/3D-Solar-Spin-Showcase.git
+   81  git push -u origin main
+   82  code .
+   83  git clone https://github.com/bradtraversy/react-crash-2024.git
+   84  npm create vite@latest
+   85  git status
+   86  git add .
+   87  git commit -m "React Three Fiber"
+   88  git push
+   89  npm install
+   90  git clone https://github.com/wass08/chair-configurator-three-js-r3F-tutorial.git
+   91  git clone
+   92  git clone https://github.com/adrianhajdin/project_threejs_ai.git
+   93  npm install
+   94   npm audit fix
+   95  npm install
+   96  npm audit fix --force
+   97  npm run dev
+   98  git clone
+   99  git clone https://github.com/JavaScript-Mastery-Pro/gsap-cc-starter.git
+  100  npx vite
+  101  git status
+  102  git add .
+  103  git commit -m "React ThreeD Project"
+  104  git push
+  105  npx vite
+  106  npm i --y
+  107  code .
+  108  git clone https://github.com/ed-roh/gym-typescript.git
+  109  git clone https://github.com/ed-roh/gym-typescript.git
+  110  git clone https://github.com/Maclinz/weather-app.git
+  111  git clone https://github.com/WebDevSimplified/react-note-taking-app.git
+  112  npm install
+  113  npm run dev
+  114  git clone https://github.com/marcofugaro/three-projected-material.git
+  115  npm install
+  116  git clone
+  117  git clone https://github.com/saucecode/threejs-demos.git
+  118  git clone https://github.com/saucecode/threejs-demos.git
+  119  git clone https://github.com/mrdoob/three.js.git
+  120  git clone https://github.com/mrdoob/three.js.git
+  121  git clone https://github.com/sixfwa/threejs-basics.git
+  122  npm install
+  123  npm run dev
+  124  npm create vite@latest
+  125  git clone https://github.com/drcmda/floating-shoe.git
+  126  git clone https://github.com/drcmda/floating-shoe.git/resources/gltf
+  127  git clone https://github.com/wass08/table-configurator-three-js-r3F-tutorial-final.git
+  128  npm install
+  129  code .
+  130  npm install --y
+  131  npm install --save three
+  132  npm install --save-dev vite
+  133  git init
+  134  composer create-project laravel/laravel fullStackAuth
+  135  git branch
+  136  git checkout sarantis
+  137  git branch
+  138  git checkout main
+  139  git pull origin sarantis
+  140  git merge sarantis
+  141  git checkout sarantis
+  142  git status
+  143  git add .
+  144  git commmit -m "update"
+  145  git commit -m "update"
+  146  git status
+  147  git checkout sarantis
+  148  npx vite
+  149  git status
+  150  git clone https://github.com/JoyDhar32/Project-Horizons.git
+  151  npm i
+  152  git status
+  153  npx vite
+  154  git clone https://github.com/JoyDhar32/Project-Horizons.git
+  155  git checkout sarantis
+  156  code .
+  157  npm install --save-dev vite
+  158  git clone https://github.com/JoyDhar32/Pixel-to-Product.git
+  159  npm i
+  160  git clone https://github.com/JoyDhar32/Project-Horizons.git
+  161  git checkout texture
+  162  npm i
+  163  git checkout main
+  164  git branch
+  165  git checkout texture
+  166  git clone https://github.com/wass08/cybertruck-shaders-r3f-tutorial-final.git
+  167  npm i
+  168  git clone https://github.com/JoyDhar32/Project-Horizons.git
+  169  git add .
+  170  git commit -m "Save current work before switching branches"
+  171  git checkout main
+  172  git checkout texture
+  173  git checkout sarantis
+  174  npx vite
+  175  npm i
+  176  npm install three-mesh-bvh
+  177  clear
+  178  npx vite
+  179  cmd
+  180  git pull
+  181  git clone https://github.com/JoyDhar32/Project-Horizons.git
+  182  git clone https://github.com/JoyDhar32/Pixel-to-Product.git
+  183  git status
+  184  git add .
+  185  git commit -m "noting"
+  186  git push
+  187  git status
+  188  git add .
+  189  git commit -m "initial update"
+  190  git push
+  191  composer -v
+  192  clear
+  193  composer create-project laravel/laravel laravel11-react-inertia
+  194  php artisan serve
+  195  composer create-project laravel/laravel backend
+  196  npm run dev
+  197  npm run dev
+  198  npm run dev
+  199  git init
+  200  git status
+  201  git add .
+  202  git status
+  203  git commit -m "initial commit"
+  204  git remote add origin https://github.com/JoyDhar32/NextGenE-Pixel-to-Product.git
+  205  git push -u origin main
+  206  git branch -M main
+  207  git status
+  208  git push -u orgin main
+  209  git remote add origin https://github.com/JoyDhar32/NextGenE-Pixel-to-Product.git
+  210  git push -u origin main
+  211  git clone https://github.com/drcmda/floating-shoe.git
+  212  npm i
+  213  git clone https://github.com/drcmda/floating-shoe.git
+  214  npx gltfjsx scene.gltf
+  215  npm gltfjsx shoe-draco.glb
+  216  npx gltfjsx shoe-draco.glb
+  217  cd ..
+  218  npx gltfjsx scene.gltf
+  219  npx gltfjsx nike_air_force_1_triple_white.glb
+  220  composer create-project laravel/laravel:^10.0 example-app
+  221  composer create-project laravel/laravel:^10.0 backend
+  222  git clone https://github.com/wass08/r3f-3d-slideshow.git
+  223  npx gltfjsx frau_shoes.glb
+  224  npx gltfjsx reebok_crossfit_nano_shoe_3d_scan
+  225  npx gltfjsx reebok_crossfit_nano_shoe_3d_scan.glb
+  226  npx gltfjsx vans_shoe.glb
+  227  npx gltfjsx black_shoe.glb
+  228  npx gltfjsx asics_gel_nimbus_21.glb
+  229  npx gltfjsx professional_photo_backpack.glb
+  230  npx gltfjsx nike_shoe.glb
+  231  npx gltfjsx curvy_golden_ankle_strap_sandal_heels.glb
+  232  npx gltfjsx carhartt_construction_boot.glb
+  233  npx gltfjsx nike_tc_7900_sail.glb
+  234  composer global require laravel/installer
+  235  laravel new cashcourse
+  236  cd cashcourse
+  237  code .
+  238  npm i
+  239  npm i
+  240  npm i
+  241  npm init
+  242  npm --version
+  243  npm install -g npm@latest
+  244  npm --version
+  245  sudo npm install -g npm@latest
+  246  npm --version
+  247  npm --version
+  248  npm --version
+  249  npm cache clean --force
+  250  npm --version
+  251  npm -v
+  252  node --version
+  253  composer
+  254  php -v
+  255  php -version
+  256  php
+  257  npm create vite@latest
+  258  code .
+  259  git clone https://github.com/demo-org1-rn/ai-rag-workshop.git
+  260  npx create-next-app@latest
+  261  git status
+  262  git add .
+  263  git commit -m "update"
+  264  git push
+  265  git clone https://github.com/bradtraversy/property-pulse.git
+  266  git status
+  267  git clone https://github.com/JoyDhar32/Trip-Bot-Mobile.git
+  268  git clone 
+  269  https://github.com/JoyDhar32/Trip-Bot-Mobile.git
+  270  git clone https://github.com/JoyDhar32/Trip-Bot-Mobile.git
+  271  ls
+  272  ls etc
+  273  ls
+  274  ls Problem Solving
+  275  ls 'Problem Solving"
+  276  ls
+  277  ls
+  278  ls DSA
+  279  cd ../..
+  280  ls
+  281  ls bin
+  282  clear
+  283  ls
+  284  git clone https://github.com/Georges034302/USP_Lectures.git
+  285  ls
+  286  pwd
+  287  cd ~
+  288  cd ~ /h
+  289  cd /h
+  290  cd ~ /h
+  291  ls
+  292  cd DSA
+  293  cd Lessons
+  294  git status
+  295  ls -E
+  296  ls -R
+  297  mkdir test
+  298  ls
+  299  git status
+  300  clear
+  301  echo
+  302  echo "Hello World"
+  303  echo 4+4
+  304  echo (4+4)
+  305  echo int(4+4)
+  306  echo "2+2"
+  307  echo a+s+2
+  308  echo $((2+2))
+  309  echo ${2+2}
+  310  echo $(2+2)
+  311  whoami
+  312  echo $(whoami)
+  313  echo "Hello $(whoami)"
+  314  hello=`ls -l`
+  315  echo $hello
+  316  hello =`whoami`
+  317  clear
+  318  alias ll='ls -l'
+  319  ll
+  320  npm i
+  321  [200~
+  322  git clone https://github.com/rishavchanda/3d-portfolio-website.git
+  323  git pull
+  324  git clone https://github.com/Georges034302/USP_Tutorials.git
+  325  clear
+  326  man ls
+  327  clear
+  328  pwd
+  329  #!/bin/bash
+  330  echo $0
+  331  echo $1
+  332  echo $2
+  333  echo $3
+  334  echo "How many arguments --> $#"
+  335  echo "List of arguments  --> $*"
+  336  ls
+  337  clear
+  338  pwd
+  339  ls -la
+  340  cd ..
+  341  cd Week01
+  342  cd ~
+  343  pwd
+  344  cd  /h/Journey to UTS/4th Semester/Unix/Week01
+  345  cd /h
+  346  cd JJourney to UTS
+  347  cd Journey to UTS
+  348  cd /Journey to UTS
+  349  cd "Journey to UTS"
+  350  cd
+  351  cd "[200~
+  352  DELL@Joy-Dhar-Pc MINGW64 ~
+  353  cd
+  354  bear
+  355  clear
+  356  cd "/h/Journey to UTS/4th Semester/Unix/Week01"
+  357  pwd
+  358  mkdir Test2
+  359  ls
+  360  mkdir -p Test3/file.txt
+  361  ls
+  362  cd Test3
+  363  ls
+  364  cd ..
+  365  mkdir dir1 dir2 dir3 "This is Sample"
+  366  ls
+  367  rmdir Test2
+  368  ls
+  369  mkdir Test2
+  370  ls
+  371  rm -r Test3
+  372  ls
+  373  rm first.txt
+  374  ls
+  375  mkdir first.txt
+  376  ls
+  377  touch
+  378  echo "This is a sample file"> file.txt
+  379  ls
+  380  rm Test2
+  381  rmdir Test2
+  382  rm file.txt
+  383  ls
+  384  cp source.txt destination.txt
+  385  echo "Source File"> source.txt
+  386  cp source.txt destination.txt
+  387  ls
+  388  cp source.txt destination.txt /Test2
+  389  cp source.txt destination.txt Test2
+  390  mkdir Test2
+  391  cp source.txt destination.txt Test2
+  392  cd Test2
+  393  ls
+  394  cp -r Test2 Test3
+  395  cd ..
+  396  cp -r Test2 Test3
+  397  ls
+  398  cd Test3
+  399  ls
+  400  echo "Permission File Type">per.txt
+  401  ls
+  402  cp -p per.txt paste.txt
+  403  ls 
+  404  cp -p per.txt paste.txt
+  405  ls
+  406  cp -p per.txt paste.txt
+  407  history
+  408  cd ..
+  409  history
+  410  history > unix1.txt
+  411  ls
+  412  cd "[200~
+  413  cd /h
+  414  ls
+  415  cd 'Journey to UTS"
+  416  cd 'Journey to UTS'
+  417  ls
+  418  cd '4th Semester'
+  419  ls
+  420  cd Unix
+  421  ls
+  422  cd 'USP_Tutorials'
+  423  ls
+  424  cd unix2
+  425  ls
+  426  pwd
+  427  echo $0
+  428  echo $1
+  429  ls
+  430  echo $2
+  431  echo $3
+  432  cd ..
+  433  ls
+  434  cd..
+  435  cd ..
+  436  ls
+  437  cd Week01
+  438  ls
+  439  cat source.txt
+  440  code .
+  441  ls
+  442  cat source.txt
+  443  csc testt.cs
+  444  mkdir c#
+  445  cd c#
+  446  code .
+  447  code .
+  448  git status
+  449  git add .
+  450  git status
+  451  git add .
+  452  git add .
+  453  git status
+  454  git commit -m "Starting with C#"
+  455  git push
+  456  git status
+  457  git add .
+  458  git commit -m "Update"
+  459  git push
+  460  git add .
+  461  git add .
+  462  git commit -m "update"
+  463  gitpush
+  464  git push
+  465  git pull
+  466  dotnet --info
+  467  clear
+  468  dotnet new list
+  469  dotnet new sln
+  470  ls
+  471  mkdir TurboBidArena
+  472  cd TurboBidArena
+  473  dotnet new sln
+  474  ls
+  475  dotnet new webapi -o src/AuctionService -controllers
+  476  ls
+  477  ls src
+  478  clear
+  479  history
+  480  clear
+  481  dotnet sln add src/AuctionService
+  482  code .
+  483  attrib +h +s +r h
+  484  mkdir ContentCraft
+  485  cd ContentCraft
+  486  code .
+  487  cd ..
+  488  mkdir contentCraft
+  489  code .
+  490  cd contentCraft
+  491  code .
+  492  git status
+  493  git add .
+  494  git commit -m "OOP"
+  495  git push
+  496  git status
+  497  ls
+  498  mv hiddenA.txt .hiddenfile.txt
+  499  ls -la
+  500  ls -a
+  501  mv B FolderA
+  502  mv fileA.txt ./FolderA/B
+  503  grep "start=0" "69. Sqrt(x).js"
+  504  grep "search_term" 69. Sqrt(x).js
+  505  echo "This is for Search item and Search Term" >fileA.txt
+  506  cat fileA
+  507  cat fileA.txt
+  508  grep "Search" fileA.txt
+  509  grep "Start" "69. Sqrt(x).js"
+  510  echo "const mySqrt =(x) =>{
+    let start =0;
+    let end=x; // 9
+    while(start<=end){
+        let mid=Math.floor((start+end)/2); // 0+9/2=4.5=4
+        let midSquare=mid*mid; // 4*4=16
+        if(midSquare===x){ // 16===16
+            return mid;
+        }
+        else if(midSquare<x){  // 16<9
+            start = mid+1;
+        }
+        else{
+            end=mid-1; 
+        }
+    }
+    return end; // 2
+}
+console.log(mySqrt(8)); 
+console.log(mySqrt(4));
+console.log(mySqrt(1));
+console.log(mySqrt(20));
+console.log(mySqrt(19));
+
+// time complexity: O(log(x))
+// space complexity: O(1)
+
+// ✅ Beats 89.99% of JavaScript submissions in runtime
+
+/*
+Explaination:
+Explaining it for input 8
+
+Initialization:
+01 start is initially set to 0.
+end is initially set to 8.
+
+Binary Search:
+In the first iteration, mid is calculated as (0 + 8) / 2 = 4.
+The square of mid is 4 * 4 = 16, which is greater than 8.
+Since we are looking for the square root rounded down, we update end to mid - 1, so end becomes 3.
+Second Iteration:
+
+In the second iteration, start is still 0, and end is now 3.
+mid is calculated as (0 + 3) / 2 = 1.
+The square of mid is 1 * 1 = 1, which is less than 8.
+We update start to mid + 1, so start becomes 2.
+Third Iteration:
+
+In the third iteration, start is now 2, and end is still 3.
+mid is calculated as (2 + 3) / 2 = 2.
+The square of mid is 2 * 2 = 4, which is less than 8.
+We update start to mid + 1, so start becomes 3.
+Fourth Iteration:
+
+In the fourth iteration, start is now 3, and end is still 3.
+mid is calculated as (3 + 3) / 2 = 3.
+The square of mid is 3 * 3 = 9, which is greater than 8.
+We update end to mid - 1, so end becomes 2.
+Loop Ends:
+
+The loop ends when start is no longer less than or equal to end.
+
+Result:
+At the end of the loop, end is the floor of the square root of 8, which is 2.
+The function returns 2 as the output
+
+Complexity
+Time complexity: O(log(x)) // Binary Search
+Space complexity: O(1)
+
+*" > Sqrt.txt
+  511  cat sqrt.txt
+  512  grep "Start" Sqrt.txt
+  513  grep "start" Sqrt.txt
+  514  grep "start|end" Sqrt.txt
+  515  grep "start"|"end" Sqrt.txt
+  516  clear
+  517  chmod a=r *
+  518  history ->Tut.txt
+  519  history > Tut.txt
